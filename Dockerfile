@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Chris Impey "chris@impey.io"
 
-ENV VERSION=3.1.4
+ENV VERSION=4.1.6
 
 RUN apk update \
     && apk add curl g++ make \
